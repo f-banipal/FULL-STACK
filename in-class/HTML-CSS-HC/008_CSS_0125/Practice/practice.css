@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .left {
+    background-color: fuchsia;
+    flex: 1;
+}
+
+nav .middle {
+    background-color: skyblue;
+    flex: 1;
+}
+
+nav .right {
+    background-color: olive;
+    flex: 1;         
+}

@@ -1,0 +1,40 @@
+
+
+.outher{
+    background-color: chocolate;
+    width: 500px;
+    height: 500px;
+}
+.inner{
+    background-color: gray;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    animation-name: voyages;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+    animation: voyages 2s ease 1s infinite alternate
+}
+
+@keyframes voyages {
+    0%{
+        transform: translate(0);
+        background-color: yellow;
+    }
+
+    25%{
+        transform: translateY(100%);
+    }
+    50%{
+        transform: translate(100%, 100%);
+    }
+
+    100%{
+        transform: translateX(100%);
+    }
+}

@@ -1,0 +1,9 @@
+body, html {
+    text-align: center;
+}
+.description {
+    
+    text-align:justify;
+    margin: 0 auto;
+    max-width: 30ch;
+}

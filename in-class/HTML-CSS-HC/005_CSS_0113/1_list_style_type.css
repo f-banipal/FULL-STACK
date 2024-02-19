@@ -1,0 +1,63 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Playfair+Display:ital@0;1&display=swap');
+
+
+/* 
+.languages{
+    border: 2px solid red;
+    padding: 0  ;
+} */
+
+body{
+    
+
+}
+ul.languages{
+    border: 0px solid red;
+    font-family: 'Playfair Display', serif;
+    font-size: 48;
+    color: black;
+    list-style-type: none;
+    list-style-type: square;
+    list-style-type: circle;
+    list-style-type: lower-alpha;
+    list-style-type: georgian;
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: url(./img/house-solid.svg);
+    
+}
+
+ul.languages li{
+    font-family: 'Dancing Script', cursive;
+    background-color: lightblue;
+    margin: 5px;
+    width: 250px;
+    border-radius: 5px;
+    padding-left: 20px;
+    border: 0.5px solid orange;
+    border-left: 5px solid gray;
+}
+
+h2 i{
+    color: rgb(51, 23, 51);
+    font-family: 'Playfair Display', serif;
+}
+
+ul.languages li:hover{
+    color: red;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* PESUDO CLASSES */
+
+ul.pseudo li:first-child{
+    color: red;
+}
+ul.pseudo li:last-child{
+    color: blue;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{margin: auto; padding: 30px;}
+        .box{
+            display: inline-block; background: #bbb; padding: 30px;
+        }
+    </style>
+    <script>
+        $(function(){
+
+        $.ortala = function(elem)
+        {
+        var w = $(elem).width();
+        var h = $(elem).height();
+        $(elem).css({
+            position: "absolute",
+            top: "50%"
+            left: "50%"
+            marginTop: "-" + h / 2 + "px",
+            marginLeft: "-" + w / 2 + "px"
+        });
+    }
+       $.ortalama('.box') 
+})
+    </script>
+    
+</head>
+<body>
+    
+    <div class="box">
+        <p>Asur "Gunes Tanri'si" Shamsh'tir</p>
+    </div>
+
+    <div class="box">
+        <p>Asur "Gunes Tanri'si" Shamsh'tir</p>
+    </div>
+</body>
+</html>

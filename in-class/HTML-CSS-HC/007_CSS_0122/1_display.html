@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./1_display.css">
+    <style>
+        a {
+            background-color: aqua;
+            margin: 20px;
+            padding: 10px;
+
+        }
+        button {
+            background-color: olive;
+            /* margin: 20px; */
+            padding: 20px;
+        }
+        span {
+            background-color: orange;
+            margin: 20px;
+        }
+        .box {
+            background-color: teal;
+            margin: 5px;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+        #box2 {
+            background-color: orange;
+            /* display: none; */
+            /* display : none ozelligi elemani siler ve onun yerine bir sonraki elemani getirir. */
+            /* visibility: hidden; */
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline Elements -->
+    <!-- yukseklik ve genislik veremeyiz -->
+    <!-- button defalut olarak : inline-block -->
+    <!-- a ve span : inline element : yukseklik ve genislik almak  -->
+    <a href="">Clarusway</a>
+    <button>Clarusway</button>
+    <span>Hello, my name span.</span>
+<hr>
+    <!-- Block Element -->
+    <div class="box">div1</div>
+    <div class="box" id = "box2" onclick="this.style.visibility='hidden'">div2</div>
+    <div class="box">div3</div>
+    <br><br>
+    <div class="box">div1</div>
+    <div class="box" id = "box22" onclick="this.style.display='none'">div2</div>
+    <div class="box">div3</div>
+</body>
+</html>

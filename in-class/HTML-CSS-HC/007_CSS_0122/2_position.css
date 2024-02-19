@@ -1,0 +1,72 @@
+.main {
+    background-color: rgba(194, 239, 127, 0.88);
+    width: 90%;
+    margin: 50px auto;
+    height: 300px;
+    position: relative;
+
+}
+
+.box1 {
+
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: static;
+    position: relative;
+    z-index: 1;
+}
+
+.box2 {
+
+    background-color: rgba(255, 0, 255, 0.859);
+    width: 100px;
+    height: 100px;
+
+    /* position: relative; : box2 nin ilk bulundugu konuma gore top left right: bottom degerleri konum alir; */
+
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 30;
+}
+
+.box3 {
+    z-index: 5;
+    background-color: rgba(255, 140, 0, 0.877);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+   
+    top: 0;
+    right: 0;
+}
+
+.box4 {
+
+    background-color: rgba(255, 255, 0, 0.845);
+    width: 100px;
+    height: 100px;
+    left: 75px;
+    bottom:110px;
+    z-index: 4;
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.box5 {
+    background-color: aqua;
+    width: 250px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.paragraph2{
+    position: sticky;
+    background-color: red;
+    border-radius: 5px;
+    top: 0;
+}

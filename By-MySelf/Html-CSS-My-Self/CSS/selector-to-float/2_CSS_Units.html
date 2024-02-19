@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Units</title>
+    <style>
+        .fifty-percent {
+            width: 50%;
+            margin-bottom: 5px;
+        }
+        .one-hundred-pixels {
+            width: 100px;
+        }
+        .parent {
+            width: 350px;
+            background-color: blue;
+            padding: 5px 0;
+            
+        }
+        .box {
+            background-color: red;
+            border: 5px solid black;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="box fifty-percent">50%</div>
+    <div class="box one-hundred-pixels">100px</div>
+    <hr />
+    <div class="parent">
+      <div class="box fifty-percent">50%</div>
+      <div class="box one-hundred-pixels">100px</div>
+    </div>
+  </body>
+</html>

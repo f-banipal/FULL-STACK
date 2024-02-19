@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div ve Span Kullanimi</title>
+    <style>
+      #container3 {
+        background-color: magenta;
+      }
+
+      #span3 {
+        background-color: yellow;
+      }
+
+      .container1 {
+        background-color: green;
+        width: 50%;
+        margin: auto;
+        border-radius: 10px;
+        padding: 20px;
+      }
+
+      body {
+        background-color: turquoise;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="" style="background-color: coral">inline element</a>
+    <a href="" style="background-color: cornflowerblue"
+      >inline element'e yukseklik ve genislik degisikligi yapamayiz.</a
+    >
+    <p style="background-color: goldenrod">block element</p>
+
+    <h1>Div ve Span Kullanimi</h1>
+    <div class="container1">
+      <h2>Baslik 1</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+        repellendus aspernatur mollitia quasi quo molestiae reprehenderit
+        eligendi adipisci quibusdam iure?
+      </p>
+    </div>
+
+    <div style="background-color: dodgerblue">
+      <h2>Baslik 2</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <span style="background-color: orangered">
+          Officia, repellendus aspernatur mollitia quasi quo molestiae
+          reprehenderit eligendi adipisci quibusdam iure? </span
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+        voluptates similique quae minima nemo fugiat quam obcaecati ad, possimus
+        impedit explicabo veniam odio voluptatibus, voluptate assumenda! Iusto
+        dolores nesciunt similique.
+      </p>
+    </div>
+
+    <div id="container3">
+      <h2>Baslik 3</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
+        repellendus aspernatur mollitia quasi
+
+        <span id="span3"
+          >quo molestiae reprehenderit eligendi adipisci quibusdam iure?
+        </span>
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+div p {
+    background-color: olive;
+}
+
+.container div p {
+    background-color: red;
+}
+
+p + div {
+    background-color: yellow;
+}
+
+div + p {
+    background-color: blue;
+}
+
+div ~ p {
+    background-color: turquoise;
+}
+
+h2[title="baslik1"] {
+
+    background-color: green;
+}
+p[title="paragraf1"] {
+
+    background-color: #8af18a;
+}
+
+a[target="_blank"] {
+    background-color: gray;
+}
+
+p[title="paragraf1"]::first-line {
+
+    background-color: red;
+    
+}
+
+p[title="paragraf1"]::first-letter {
+
+    background-color: blue;
+    font-size: 2rem;
+
+}
+.out {
+    border: 2px solid yellow;
+    width: 8rem;
+    height: 8rem;
+    font-size: 1rem ;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    
+    outline: 5px dashed purple;
+    outline-offset: 2rem;
+    text-align: center;
+    padding: 2rem;
+    padding-top: ;
+}
+
+.out:hover {
+    outline: 5px dashed purple;
+    outline-offset: .5rem;
+    cursor: pointer;
+}
+

@@ -1,0 +1,30 @@
+body{
+    background-color: turquoise;
+}
+.paragraf {
+    background: #eee;
+    padding-left: 15px;
+    margin: 15px;
+    height: 200px;
+    width: 500px;
+    display:table
+}
+
+.paragraf p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.paragraf2 {
+    background: #eee;
+    padding-left: 15px;
+    margin: 15px;
+    height: 200px;
+    width: 500px;
+    display:table
+}
+
+.paragraf2 p {
+    display: table-cell;
+    vertical-align: middle;
+}

@@ -1,0 +1,14 @@
+body {
+  color: black;
+}
+
+.green {
+  color: #00f;
+  color: #000000;
+  color: #00000030;
+  color: hsla(0, saturation, lightness, alpha);
+}
+
+p {
+  color: #008000;
+}

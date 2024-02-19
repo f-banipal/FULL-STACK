@@ -1,0 +1,49 @@
+
+.img-float {
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.box {
+background-color: chocolate;
+
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+}
+
+.box1 {
+    clear: left;
+}
+
+/* .clear-float {
+    clear: both;
+} */
+
+.container {
+    background-color: red;
+}
+.boxx {
+    float: left;
+}
+
+.boxx.boxa {
+    background-color: lime;
+    width: 33.3%;
+    height: 10vh;
+    
+}
+.boxx.boxb {
+    background-color: purple;
+    width: 33.3%;
+    height: 20vh;
+    background-image:url("https://cdn.pixabay.com/photo/2023/07/28/20/34/ai-generated-8155950_1280.png") ;
+}
+.boxx.boxc {
+    background-color: darkorange;
+    width: 33.3%;
+    height: 30vh;
+}

@@ -1,0 +1,131 @@
+.yazi{
+
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem auto;
+    width: 50vw;
+}
+
+
+.yazi-1{
+    background-color: darkcyan;
+    transform: rotateX(180deg);
+}
+
+.yazi-2{
+    background-color: chocolate;
+    transform: rotateY(180deg);
+}
+
+.yazi-3{
+    background-color: cornflowerblue;
+    transform: rotate(-30deg);
+    transform-origin: left;
+    transform-origin: right;
+    
+}
+.yazi-3:hover{ 
+    background-color: yellow;
+    width: 30px;
+    transform: rotateY(145deg) scale(2);
+   
+}
+
+
+/* TRANSFORM SCALE   */
+/* Boyutlandirma icin kullanilir*/
+
+
+.yazi-4{
+    background-color: fuchsia;
+    transform: scaleX(3);
+}
+
+.yazi-5{
+    background-color: olive;
+    transform: scaleY(2);
+}
+
+.yazi-6{
+    background-color: darkgoldenrod;
+    transform: scale(3);
+}
+
+/* ----------------------------------------------------------*/
+/*  TRANSFORM TRANSLATE*/
+
+.box{
+    background-color: crimson;
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+}
+
+
+}
+.x:active{ 
+    transform: translateX(15px);
+}
+
+.y:active{
+    background-color: magenta;
+    transform: translateY(120px);
+
+}
+
+.xy:active{
+    transform: translate(50px, 90px);
+    background-color: yellowgreen;
+    
+}
+
+.transition1{
+    width: 300px;
+    height: 20px;
+    background-color: olivedrab;
+    margin-bottom: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+}
+
+.transition1:hover{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translateX(400px);
+    background-color: red;
+}
+.transition2{
+    width: 300px;
+    height: 50px;
+    background-color: red;
+    margin-bottom: 5px;
+}
+.transition3{
+    width: 300px;
+    height: 50px;
+    background-color: blue;
+    margin-bottom: 5px;
+}
+.transition4{
+    width: 300px;
+    height: 50px;
+    background-color: olivedrab;
+    margin-bottom: 5px;
+}
+.transition5{
+    width: 300px;
+    height: 50px;
+    background-color: yellow;
+    margin-bottom: 5px;
+}
+.transition6{
+    width: 300px;
+    height: 50px;
+    background-color: magenta;
+}
+

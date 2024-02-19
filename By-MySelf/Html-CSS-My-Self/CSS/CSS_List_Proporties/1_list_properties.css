@@ -1,0 +1,32 @@
+ul {
+        list-style-type: square;
+}
+
+ul {
+    /* background-color: red;
+    text-transform: uppercase;list */
+    line-height: 2
+    
+}
+
+div {
+    
+}
+
+
+table, th, td {
+    border: 2px solid orange;
+    width: 100%;
+}
+/* table th {
+    text-align: right;
+    
+} */
+
+tr:hover {
+    background-color: green;
+}
+
+th {
+    background-color: aqua;
+}

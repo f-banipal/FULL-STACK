@@ -1,0 +1,55 @@
+
+h1{
+    border: 2px solid red;
+    color: blue;
+    text-align: center;
+    text-align: right;
+    text-align: left;
+}
+
+span{
+    color: red;
+}
+
+#par1{
+color: blue;
+text-align: center;
+}
+
+#par2{
+color: red;
+text-align: right;
+}
+
+#par3{
+color: green;
+text-align: justify;
+text-indent: 40px;
+letter-spacing: 5px;
+text-shadow: 2px 1px 5px black;
+}
+
+#par4{
+color: coral;
+text-transform: uppercase;
+text-decoration: underline;
+text-decoration-color: yellow;
+
+
+}
+#par5{
+color: firebrick;
+text-transform: capitalize;
+text-align: justify;
+direction: rtl;
+unicode-bidi:bidi-override;
+
+}
+
+#par6{
+
+}
+
+#par7{
+
+}

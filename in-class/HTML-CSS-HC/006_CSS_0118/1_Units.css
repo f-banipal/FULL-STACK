@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.abs {
+  background-color: chocolate;
+  width: 350px;
+  width: 10cm;
+  width: 5in;
+}
+
+.div2 {
+  background-color: blueviolet;
+  width: 50%;
+}
+
+.div3 {
+  background-color: chocolate;
+  width: 50%;
+}
+
+.div4 {
+  background-color: lime;
+  width: 50%;
+  width: 60vw;
+}
+.div5 {
+  font-size: 25px;
+}
+.div6 {
+    font-size: 2em;
+}
+.div7 {
+  font-size: 2em;
+}
+.div8 {
+    font-size: 25px;
+}
+.div9 {
+    font-size: 2rem;
+}
+.div10 {
+    font-size: 2rem;
+}

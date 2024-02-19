@@ -1,0 +1,21 @@
+/* 
+
+.container {
+    font-size: 32px;
+}
+
+
+ul {
+    font-size: 2em;
+}
+
+.container2 {
+    font-size: 32;
+} */
+
+.btn {
+    background-color: red;
+    color: white;
+    font-size: 2em;
+    padding: 1em;
+}
